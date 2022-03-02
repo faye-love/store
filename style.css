@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+* {
+    background-color: #1a1919;
+    color: #ca458e;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 3vw;
+}
+
+#title{
+    margin: 0;
+    width: 100%;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    border-bottom: thick solid #ca458e;
+}
+
+img{
+    height: 75px;
+}
+
+.icon-bar {
+    background-color: #1a1919;
+    width: 100%; /* Full-width */
+    overflow: auto; /* Overflow due to float */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    display: flex;
+  }
+
+.product-container{
+    margin-left: 10px;
+}
+
+.title-font{
+    font-size: 11vw;
+    font-family: 'Sacramento', cursive;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.productTitle{
+    font-size: 4vw;
+}
+
+.productTitle:hover{
+    cursor: pointer;
+    transition: 1s ease;
+    font-size: 4.1vw;
+}
+
+.info{
+    color: whitesmoke !important;
+}
+
+.productDescription{
+    margin-left: 50px;
+}
+
+.productPrice{
+    margin-left: 50px;
+}
+
+.bar-container{
+    background-color: #1a1919;
+    margin-bottom: 20px;
+}
